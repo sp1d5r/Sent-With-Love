@@ -60,3 +60,8 @@ def get_message_sent():
 
     return message
 
+try:
+    run()
+except:
+    print("big fat error lol")
+    send_admin_email("Big Fat Error Lol")

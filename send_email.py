@@ -1,5 +1,5 @@
 import smtplib
-import private_keys as pk
+import config as pk
 
 
 def send_email(sender, recipient, subject, body):
